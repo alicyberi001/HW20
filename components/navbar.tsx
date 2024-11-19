@@ -12,9 +12,9 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav className="w-full py-[10px] bg-[#8D5BE9] flex justify-between items-center px-8 border-b-2 border-black/25 box-border ">
-      <div>
-        <img className="w-5 h-5" src="./logo.jpg" alt="logo" />
-        <span className="text-black">Confrence Room</span>
+      <div className="flex gap-2 items-center">
+        <img className="w-9 h-9" src="./logo.jpg" alt="logo" />
+        <span className="text-white font-semibold text-2xl">Confrence Room</span>
       </div>
       <div className="flex gap-2">
         <button
